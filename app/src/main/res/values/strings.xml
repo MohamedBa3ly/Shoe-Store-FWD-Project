@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Shoe Store</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="hint_mail">Enter Your Mail</string>
+    <string name="hint_password">Enter Your Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_words">Our store will make you comfortable and you will be happy.</string>
+    <string name="let_s_go">Let\'s Go</string>
+    <string name="to_be_happy_here">To be happy here :</string>
+    <string name="instructions_store_one">1- Choose your correct size.</string>
+    <string name="instructions_store_two">2- Choose your favourite color.</string>
+    <string name="instructions_store_three">3- Our store will prepared your order with love.</string>
+    <string name="float_content">add new shoe</string>
+    <string name="logout">Logout</string>
+    <string name="shoe_name">Name :</string>
+    <string name="enter_shoe_name_hint">Enter Shoe Name</string>
+    <string name="company">Company :</string>
+    <string name="enter_company_name_hint">Enter Company Name</string>
+    <string name="size">Size :</string>
+    <string name="enter_shoe_size_hint">Enter Shoe Size</string>
+    <string name="description">Description :</string>
+    <string name="enter_shoe_description_hint">Enter Shoe Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="content_description">To add shoe</string>
+    <string name="our_list">Our List</string>
+</resources>

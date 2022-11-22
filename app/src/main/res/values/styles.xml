@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="buttons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/sky</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/txtSize17</item>
+    </style>
+
+    <style name="floating_shoe_list">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/sky</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="contentDescription">@string/float_content</item>
+        <item name="android:layout_margin">@dimen/margin4</item>
+    </style>
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+<!--all views here is drooped in vertical, so i use linearLayout (fast and easy)-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/sky"
+            android:textSize="@dimen/txtSize30"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txt_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:layout_marginBottom="@dimen/margin1"
+            android:text="@string/email"
+            android:textSize="@dimen/txtSize17" />
+
+        <EditText
+            android:id="@+id/et_mail"
+            android:hint="@string/hint_mail"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin20"
+            android:drawableEnd="@drawable/ic_mail"
+            android:inputType="textEmailAddress"
+            android:autofillHints="Enter Your Mail" />
+
+        <TextView
+            android:id="@+id/txt_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin1"
+            android:text="@string/password"
+            android:textSize="@dimen/txtSize17" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:hint="@string/hint_password"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck"
+            android:autofillHints="Enter Your Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number|textPassword" />
+
+        <Button
+            android:id="@+id/btn_signIn"
+            android:text="@string/login"
+            tools:ignore="DuplicateSpeakableTextCheck,TextContrastCheck"
+            style="@style/buttons"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin20" />
+
+        <Button
+            android:id="@+id/btn_create_new_account"
+            android:text="@string/create_new_account"
+            tools:ignore="TextContrastCheck"
+            style="@style/buttons"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin20" />
+
+    </LinearLayout>
+</layout>

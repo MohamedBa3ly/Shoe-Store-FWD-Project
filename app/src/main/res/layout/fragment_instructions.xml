@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+    <!--all views are dropped in vertical , so i can use linearLayout or constraint -->
+    <!--    but here i use linearLayout , to show it can also put button at right by layoutGravity = end :) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:text="@string/to_be_happy_here"
+            android:textColor="@color/sky"
+            android:textSize="@dimen/txtSize30"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/txt_instructions_words_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin20"
+            android:text="@string/instructions_store_one"
+            android:textSize="@dimen/txtSize20" />
+
+        <TextView
+            android:id="@+id/txt_instructions_words_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txtSize20"
+            android:layout_marginTop="@dimen/margin2"
+            android:text="@string/instructions_store_two" />
+
+        <TextView
+            android:id="@+id/txt_instructions_words_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txtSize20"
+            android:layout_marginTop="@dimen/margin2"
+            android:text="@string/instructions_store_three" />
+
+        <Button
+            android:id="@+id/btn_instructions"
+            android:text="@string/our_list"
+            tools:ignore="TextContrastCheck"
+            style="@style/buttons"
+            android:layout_gravity="end"
+            android:layout_marginTop="@dimen/margin50"
+             />
+    </LinearLayout>
+</layout>
